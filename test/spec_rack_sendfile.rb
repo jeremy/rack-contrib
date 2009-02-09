@@ -1,5 +1,6 @@
+require 'test/spec'
 require 'rack/mock'
-require 'rack/sendfile'
+require 'rack/contrib/sendfile'
 
 context "Rack::File" do
   specify "should respond to #to_path" do

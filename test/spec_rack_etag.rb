@@ -1,5 +1,6 @@
+require 'test/spec'
 require 'rack/mock'
-require 'rack/etag'
+require 'rack/contrib/etag'
 
 context "Rack::ETag" do
   specify "sets ETag if none is set" do
